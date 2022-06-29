@@ -14,5 +14,4 @@ def get_duplicate_count(mylist):
 
     return mydict
 
-
 print(get_duplicate_count(mylist))
