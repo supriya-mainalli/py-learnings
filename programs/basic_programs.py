@@ -17,3 +17,10 @@ print("The odd index values are {}".format(mylist[::2]))
 mylist2 = [10, 13, 11, 45, 89, 99, 88]
 mylist2 = [item for item in mylist2 if item % 2 == 0]
 print("The even numbers are {}".format(mylist2))
+
+# multiply-numbers-list
+result = 1
+list1 = [1, 2, 3]
+for item in list1:
+    result *= item
+print("The multiply number list is {}".format(result))
