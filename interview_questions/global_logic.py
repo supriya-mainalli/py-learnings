@@ -2,9 +2,14 @@
 1. input = [[1,2,5],[5,2,1],[0,9,6]]
 output = [[1,5,0],[2,2,9],[5,1,6]]
 """
+input = [[1, 2, 5], [5, 2, 1], [0, 9, 6]]
+n = 0
+result = []
+for item in input:
+    result.append([x[n] for x in input])
+    n += 1
 
-
-
+print(result)
 
 """
 2. input: dct_list = ['abc', 'cab', 'abcd', 'dcba', 'abcde']
