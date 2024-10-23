@@ -27,6 +27,18 @@ print(names) #['vinod', 'manju', 'supriya', 'ria', 'maruthi', 'john', 'priya', '
 
 names += "test"
 print(names) #['vinod', 'manju', 'supriya', 'ria', 'maruthi', 'john', 'priya', 'chetan', 't', 'e', 's', 't']
+
+# list extend will not add a lsit into list. 
+names.extend(['test2'])
+print(names) # ['vinod', 'manju', 'supriya', 'ria', 'maruthi', 'john', 'priya', 'chetan', 't', 'e', 's', 't', 'test2']
+
+#appending list obj
+names = ['vinod', 'manju', 'supriya', 'ria', 'maruthi', 'john', 'priya']
+names.append(['test3'])
+print(names) #['vinod', 'manju', 'supriya', 'ria', 'maruthi', 'john', 'priya', ['test3']]
+
+
+
 """ List comprehensions"""
 
 names = ['vinod', 'manju', 'maruthi', 'ria']
