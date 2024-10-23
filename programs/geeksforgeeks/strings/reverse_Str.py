@@ -1,4 +1,4 @@
-"""reverse string withput built in method"""
+"""reverse string without built in method"""
 
 def reverse_str(my_str):
     rever_str = ""
@@ -6,4 +6,4 @@ def reverse_str(my_str):
         rever_str = item + rever_str
     return rever_str
 
-print(reverse_str("supriya"))
+print(reverse_str("supriya m"))
