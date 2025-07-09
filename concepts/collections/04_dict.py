@@ -3,7 +3,7 @@
 my_dict = {'name':'supriya','city':'bengaluru','class':'10','marks':90}
 
 keys = my_dict.keys()
-values = my_dict.keys()
+values = my_dict.values()
 
 for k,v in my_dict.items():
     print(f'the key is {k} and value is {v}')
