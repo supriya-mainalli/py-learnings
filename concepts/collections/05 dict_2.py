@@ -39,3 +39,12 @@ print(p1) # {'name': 'suppi', 'city': 'bangalore', 'email': 'abs@jfhd.com', 'add
 
 a = p1.pop('name')
 print(a) # suppi
+
+def isAnagram(s1, s2):
+	my_dict = {}
+	create_dict = lambda x : my_dict[x] = my_dict.get(x, 0) + 1
+
+	dict1 = create_dict(s1)
+	dict2 = create_dict(s2)
+	return dict1 == dict2
+print(isAnagram('silent', 'entsil'))
