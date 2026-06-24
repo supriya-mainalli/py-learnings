@@ -1,3 +1,5 @@
+# Global frequency
+
 def str_compression_expansion(s):
     my_dict = {}
     res = ""
